@@ -1,12 +1,16 @@
 import {
-  faCss3,
   faGitAlt,
   faJava,
   faJsSquare,
   faPython,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
-import { faC, faFlask } from '@fortawesome/free-solid-svg-icons'
+import {
+  faBirthdayCake,
+  faC,
+  faPhone,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
@@ -33,6 +37,36 @@ const About = () => {
               idx={15}
             />
           </h1>
+          <p>
+            <FontAwesomeIcon
+              className="about-icons"
+              icon={faBirthdayCake}
+              color="#ffd700"
+            />
+            03.08.2000
+          </p>
+          <p>
+            <FontAwesomeIcon
+              className="about-icons"
+              icon={faPhone}
+              color="#ffd700"
+            />
+            +(91) 8072283670
+          </p>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:cprashanth00@gmail.com"
+          >
+            <p>
+              <FontAwesomeIcon
+                className="about-icons"
+                icon={faEnvelope}
+                color="#ffd700"
+              />
+              cprashanth00@gmail.com
+            </p>
+          </a>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -62,24 +96,28 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faC} color="#DD0031" />
-            </div>
-            <div className="face2">
               <FontAwesomeIcon icon={faJava} color="#F06529" />
             </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faPython} color="#fcba03" />
+            </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faC} color="#DD0031" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faGitAlt} color="#de7112" />
             </div>
             <div className="face5">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faReact} color="#28A4D9" />
             </div>
           </div>
+        </div>
+        {/* todo */}
+        <div className="description">
+          <h2>hello</h2>
         </div>
       </div>
       <Loader type="pacman" />

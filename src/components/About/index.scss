@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+.about-icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
@@ -78,4 +84,9 @@
   83% {
     transform: rotateX(90deg);
   }
+}
+
+.description {
+  left: 0;
+  bottom: 0;
 }
