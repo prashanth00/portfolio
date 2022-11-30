@@ -117,7 +117,7 @@ const About = () => {
         </div>
         {/* todo */}
         <div className="description">
-          <h2>hello</h2>
+          <h2>Skill cube (My top 6 skills)</h2>
         </div>
       </div>
       <Loader type="pacman" />

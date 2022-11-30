@@ -87,6 +87,17 @@
 }
 
 .description {
-  left: 0;
-  bottom: 0;
+  // left: 0;
+  // bottom: 0;
+  // top: 50px;
+  bottom: 40px;
+  right: 234px;
+  position: absolute;
+  color: #ffd700;
+  // margin-top: 20px;
+  font-weight: 400;
+  font-size: 11px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1s backwards;
 }

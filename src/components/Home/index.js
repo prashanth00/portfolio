@@ -66,6 +66,14 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/file/d/1N1UVU0tybKeN9RnsAMwlpLeLG9Kst_M-/view"
+            className="flat-button"
+          >
+            DOWNLOAD MY RESUME
+          </a>
         </div>
         <Logo />
       </div>
