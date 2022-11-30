@@ -3,6 +3,7 @@ import './index.scss'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/dist/DrawSVGPlugin'
+import Loader from 'react-loaders'
 
 const Logo = () => {
   const bgRef = useRef()
