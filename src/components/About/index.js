@@ -16,6 +16,7 @@ import { useState, useEffect } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import { Scrollbars } from 'react-custom-scrollbars-2'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -67,31 +68,93 @@ const About = () => {
               cprashanth00@gmail.com
             </p>
           </a>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source
-          </p>
-          <p>
-            Good and Evil) by Cicero, written in 45 BC. This book is a treatise
-            on the theory of ethics, very popular during the Renaissance. The
-            first line of Lorem Ipsum, "Lorem ipsum
-          </p>
+          <div className="scroll-selection">
+            <Scrollbars style={{ width: 600, height: 370 }}>
+              <h2>Education</h2>
+              <p>
+                HSC - 2016 to 2018 - MAHATMA MONTESSORI MATRICULATION HIGHER
+                SECONDARY SCHOOL,BABA BUILDING,MADURAI <br /> <br />
+                B.E (CSE) - 2018 to 2022 - SRI SAIRAM ENGINEERING COLLEGE,
+                CHENNAI
+              </p>
+              <h2>Achievement</h2>
+              <p>
+                Our app named ‘FOCUS’ got selected among best 15 apps in
+                M-Appfesto competition held in our college.
+              </p>
+              <h2>Internship</h2>
+              <p>
+                Cyber security intern at AICL, Chennai – February 2021 to March
+                2021 <br />
+                Cyber security intern at MIT SQUARE, London – June 2021 to
+                September 2021
+              </p>
+              <h2>Projects</h2>
+              <ul>
+                <li>
+                  Detailed developer report (Internshala contest) - I have
+                  attended Ethical hacking contest in Internshala. I have
+                  submitted detailed developer report explaining the
+                  vulnerabilities of a website. <br />{' '}
+                  <a
+                    className="project-links"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://drive.google.com/file/d/1VUQKeSb-b8V5uEtfQQV7buVbOwr603rX/view?usp=sharing"
+                  >
+                    View Project
+                  </a>
+                </li>
+                <li>
+                  Enhanced hybrid encryption through slicing and merging of data
+                  -A simple Encryption app to store user data securely using
+                  Enhanced Hybrid Encryption. I developed this mobile
+                  application using flutter framework. <br />{' '}
+                  <a
+                    className="project-links"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Prashanth00/Encryption-App"
+                  >
+                    View Project
+                  </a>
+                </li>
+                <li>
+                  {/* todo */}
+                  <span className="project-heading">
+                    Malware detection using hybrid classification technique
+                  </span>
+                  - A new approach using a hybrid classifier consisting of
+                  various classification algorithms to find malware. <br />
+                  <a
+                    className="project-links"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Prashanth00/Malware-Detection-Using-Hybrid-Classification-Technique"
+                  >
+                    View Project
+                  </a>
+                </li>
+                <li>
+                  Reveal: Online Fake Job Advert Detection Application using
+                  Machine Learning- I was part of an intern team in MIT Square
+                  that developed Reveal, a machine learning-based web
+                  application, to identify fake online job advertisements such
+                  that the applicants are cautious in applying for jobs that are
+                  authentic and reliable.
+                  <br />
+                  <a
+                    className="project-links"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Prashanth00/Fake-Job-Detection"
+                  >
+                    View Project
+                  </a>
+                </li>
+              </ul>
+            </Scrollbars>
+          </div>
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
@@ -115,7 +178,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* todo */}
+
         <div className="description">
           <h2>Skill cube (My top 6 skills)</h2>
         </div>
