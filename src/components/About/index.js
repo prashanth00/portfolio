@@ -1,3 +1,4 @@
+// import SkillsBar from '../SkillsBar'
 import {
   faGitAlt,
   faJava,
@@ -17,6 +18,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { Scrollbars } from 'react-custom-scrollbars-2'
+import SkillsBar from '../SkillsBar'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -92,9 +94,11 @@ const About = () => {
               <h2>Projects</h2>
               <ul>
                 <li>
-                  Detailed developer report (Internshala contest) - I have
-                  attended Ethical hacking contest in Internshala. I have
-                  submitted detailed developer report explaining the
+                  <span className="project-heading">
+                    Detailed developer report (Internshala contest)
+                  </span>{' '}
+                  - I have attended Ethical hacking contest in Internshala. I
+                  have submitted detailed developer report explaining the
                   vulnerabilities of a website. <br />{' '}
                   <a
                     className="project-links"
@@ -106,7 +110,10 @@ const About = () => {
                   </a>
                 </li>
                 <li>
-                  Enhanced hybrid encryption through slicing and merging of data
+                  <span className="project-heading">
+                    Enhanced hybrid encryption through slicing and merging of
+                    data
+                  </span>
                   -A simple Encryption app to store user data securely using
                   Enhanced Hybrid Encryption. I developed this mobile
                   application using flutter framework. <br />{' '}
@@ -136,12 +143,14 @@ const About = () => {
                   </a>
                 </li>
                 <li>
-                  Reveal: Online Fake Job Advert Detection Application using
-                  Machine Learning- I was part of an intern team in MIT Square
-                  that developed Reveal, a machine learning-based web
-                  application, to identify fake online job advertisements such
-                  that the applicants are cautious in applying for jobs that are
-                  authentic and reliable.
+                  <span className="project-heading">
+                    Reveal: Online Fake Job Advert Detection Application using
+                    Machine Learning
+                  </span>
+                  - I was part of an intern team in MIT Square that developed
+                  Reveal, a machine learning-based web application, to identify
+                  fake online job advertisements such that the applicants are
+                  cautious in applying for jobs that are authentic and reliable.
                   <br />
                   <a
                     className="project-links"
@@ -153,6 +162,9 @@ const About = () => {
                   </a>
                 </li>
               </ul>
+              {/* todo */}
+              <h2>Skills</h2>
+              <SkillsBar />
             </Scrollbars>
           </div>
         </div>

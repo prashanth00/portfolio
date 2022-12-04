@@ -1,0 +1,155 @@
+// * {
+//   //   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   // font-family: 'Roboto', sans-serif;
+//   // font-size: 15px;
+// }
+
+// #root {
+//     height: 100vh;
+//     display: flex;
+//     background-color: #ff2;
+// }
+
+.progress-container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  // margin: 0 15px;
+  padding: 0px 20px;
+  color: #fff;
+  font-weight: 400;
+  //   border-radius: 7px;
+}
+// .skill-title {
+//   text-align: center;
+//   // margin-right: 100%;
+// }
+
+.progress-container .skill-box {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.skill-box {
+  .skill-title {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .skill-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 75%;
+    border-radius: 6px;
+    background: #ffd700;
+    animation: progress 4s ease-in-out forwards; //actual 0.4s
+
+    .tooltip {
+      position: absolute;
+      right: -14px;
+      top: -28px;
+      font-size: 13px;
+      font-weight: 300;
+      padding: 2px 6px;
+      border-radius: 3px;
+      color: #fff;
+      // border-color: #ffd700;
+      background-color: #ffd700;
+      z-index: 1;
+    }
+  }
+  .skill-per.java {
+    width: 70%;
+    animation-delay: 0.5s;
+    // animation-delay:0.1s;
+  }
+
+  .skill-per.c {
+    width: 70%;
+    animation-delay: 1s;
+    // animation-delay:0.2s;
+  }
+
+  .skill-per.flask {
+    width: 65%;
+    animation-delay: 1.5s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.reactjs {
+    width: 60%;
+    animation-delay: 2s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.html {
+    width: 60%;
+    animation-delay: 2.5s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.css {
+    width: 60%;
+    animation-delay: 3s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.js {
+    width: 60%;
+    animation-delay: 3.5s;
+    // animation-delay:0.3s;
+  }
+  .skill-per.flutter {
+    width: 60%;
+    animation-delay: 4s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.cpp {
+    width: 55%;
+    animation-delay: 4.5s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.dart {
+    width: 55%;
+    animation-delay: 5s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.sql {
+    width: 50%;
+    animation-delay: 5.5s;
+    // animation-delay:0.3s;
+  }
+
+  .skill-per.sap {
+    width: 50%;
+    animation-delay: 6s;
+    // animation-delay:0.3s;
+  }
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
