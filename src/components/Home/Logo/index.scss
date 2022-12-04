@@ -8,7 +8,7 @@
   bottom: 80%;
   left: auto;
   margin: auto;
-  opacity: 0;
+  animation: display-image 4s ease-in-out forwards;
 
   svg {
     width: 1000px;
@@ -25,7 +25,6 @@
     margin: auto;
     height: 500px;
     width: 390px;
-    opacity: 0;
     z-index: 1;
   }
 }
@@ -33,4 +32,13 @@
 .svg-container {
   stroke: #ffd700;
   stroke-width: 10;
+}
+
+@keyframes display-image {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
