@@ -1,33 +1,14 @@
-// * {
-//   //   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-//   // font-family: 'Roboto', sans-serif;
-//   // font-size: 15px;
-// }
-
-// #root {
-//     height: 100vh;
-//     display: flex;
-//     background-color: #ff2;
-// }
-
 .progress-container {
   position: relative;
   max-width: 500px;
   width: 100%;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
-  // margin: 0 15px;
+
   padding: 0px 20px;
   color: #fff;
   font-weight: 400;
-  //   border-radius: 7px;
 }
-// .skill-title {
-//   text-align: center;
-//   // margin-right: 100%;
-// }
 
 .progress-container .skill-box {
   width: 100%;
@@ -55,7 +36,8 @@
     height: 100%;
     width: 75%;
     border-radius: 6px;
-    background: #ffd700;
+
+    background-image: linear-gradient(to right, #ffd700, #fae35f, #fcf8de);
     animation: progress 4s ease-in-out forwards; //actual 0.4s
 
     .tooltip {
@@ -67,7 +49,7 @@
       padding: 2px 6px;
       border-radius: 3px;
       color: #fff;
-      // border-color: #ffd700;
+
       background-color: #ffd700;
       z-index: 1;
     }

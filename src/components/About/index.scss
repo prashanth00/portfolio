@@ -87,14 +87,11 @@
 }
 
 .description {
-  // left: 0;
-  // bottom: 0;
-  // top: 50px;
   bottom: 40px;
   right: 234px;
   position: absolute;
   color: #ffd700;
-  // margin-top: 20px;
+
   font-weight: 400;
   font-size: 11px;
   font-family: sans-serif;
@@ -103,7 +100,6 @@
 }
 
 .scroll-section {
-  // width: 100%;
   height: 20px;
   width: 20px;
 }
@@ -115,13 +111,12 @@ h2 {
 
 ul li {
   font-size: 15px;
-  // display: block;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
-.project-heading {
+.list-heading {
   color: #ffd700;
   padding-right: 5px;
 }

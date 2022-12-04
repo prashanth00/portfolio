@@ -3,7 +3,6 @@ import './index.scss'
 const SkillsBar = () => {
   return (
     <div className="progress-container">
-      {/* <h2 className="progress-title">Skills</h2> */}
       <div className="skill-box">
         <span className="skill-title">Python</span>
         <div className="skill-bar">
