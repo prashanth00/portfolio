@@ -73,7 +73,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1N1UVU0tybKeN9RnsAMwlpLeLG9Kst_M-/view"
+            href="https://drive.google.com/file/d/1U_nFfLbi_s8f-Ba_XfZKvTDRS2ttKh0F/view"
           >
             <p>
               <FontAwesomeIcon

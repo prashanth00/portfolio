@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import NotFound from './components/Not Found'
+import { Navigate } from 'react-router-dom'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
+          {/* Not Found: */}
+          <Route path="/404" element={<NotFound />} />
+          <Route path="*" element={<Navigate replace to="/404" />} />
         </Route>
       </Routes>
     </>
