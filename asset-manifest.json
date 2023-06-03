@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b39159f5.css",
-    "main.js": "/static/js/main.524f3590.js",
+    "main.css": "/static/css/main.80ffcc29.css",
+    "main.js": "/static/js/main.16aeaad1.js",
     "static/media/photo.jpg": "/static/media/photo.1e18167f6b08573ad07c.jpg",
     "static/media/logo-s.png": "/static/media/logo-s.e3e4a3d797286fabf06e.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,11 +9,11 @@
     "static/media/logo_sub.png": "/static/media/logo_sub.40ca0eacae1ef8d3a3a1.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.b39159f5.css.map": "/static/css/main.b39159f5.css.map",
-    "main.524f3590.js.map": "/static/js/main.524f3590.js.map"
+    "main.80ffcc29.css.map": "/static/css/main.80ffcc29.css.map",
+    "main.16aeaad1.js.map": "/static/js/main.16aeaad1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b39159f5.css",
-    "static/js/main.524f3590.js"
+    "static/css/main.80ffcc29.css",
+    "static/js/main.16aeaad1.js"
   ]
 }
