@@ -221,6 +221,10 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        <div className="description">
+          <h2>Skill cube (My top 6 skills)</h2>
+        </div>
       </div>
       <Loader type="pacman" />
     </>
