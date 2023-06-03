@@ -1,22 +1,17 @@
 .logo-container {
   z-index: -1;
-  // width: 800px;
-  width: 90%;
-  // height: 609px;
-  height: 90%;
+  width: 800px;
+  height: 609px;
   position: absolute;
   top: 0;
-  right: 0%;
-  max-width: 800px;
+  right: 1%;
   bottom: 80%;
-  // left: auto;
-  left: 50%;
+  left: auto;
   margin: auto;
   animation: display-image 4s ease-in-out forwards;
 
   svg {
     width: 1000px;
-    // width: 50%;
     height: 800px;
     bottom: 0;
   }
@@ -28,10 +23,8 @@
     bottom: auto;
     left: 0;
     margin: auto;
-    // height: 500px;
-    height: 82%;
-    // width: 390px;
-    width: 49%;
+    height: 500px;
+    width: 390px;
     z-index: 1;
   }
 }
