@@ -73,7 +73,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1U_nFfLbi_s8f-Ba_XfZKvTDRS2ttKh0F/view"
+            href="https://drive.google.com/file/d/1eLfCJxl9LOFW3HShVlJAF6rVMA-f86aP/view?usp=sharing"
           >
             <p>
               <FontAwesomeIcon
@@ -86,7 +86,7 @@ const About = () => {
           </a>
 
           <div className="scroll-selection">
-            <Scrollbars style={{ width: 600, height: 370 }}>
+            <Scrollbars style={{ width: '100%', height: '100%' }}>
               <h2>Education</h2>
               <p>
                 HSC - 2016 to 2018 - MAHATMA MONTESSORI MATRICULATION HIGHER
@@ -222,9 +222,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className="description">
+        {/* <div className="description">
           <h2>Skill cube (My top 6 skills)</h2>
-        </div>
+        </div> */}
       </div>
       <Loader type="pacman" />
     </>

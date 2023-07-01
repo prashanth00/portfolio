@@ -1,12 +1,19 @@
 .stage-cube-cont {
-  width: 50%;
-  height: 100%;
+  width: 500px;
+  height: 300px;
   top: 0;
-  padding-top: 18%;
-  margin-left: 0;
+  padding-top: 14%;
+  margin-left: 10%;
   position: absolute;
   right: 0;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    padding-top: 9vh;
+  }
+  @media (max-width: 576px) {
+    opacity: 0;
+  }
 }
 
 .about-icons {
@@ -99,9 +106,16 @@
   animation: fadeIn 1s 1s backwards;
 }
 
-.scroll-section {
-  height: 20px;
-  width: 20px;
+.scroll-selection {
+  // height: 20px;
+  // style={{ width: 600, height: 370 }}
+  width: 600px;
+  height: 370px;
+
+  @media (max-width: 576px) {
+    width: 80vw;
+    height: 90vh;
+  }
 }
 
 h2 {

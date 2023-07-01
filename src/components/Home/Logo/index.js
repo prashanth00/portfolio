@@ -7,7 +7,7 @@ import Photo from '../../../assets/images/photo.jpg'
 
 const Logo = () => {
   const bgRef = useRef()
-  const outlineLogoRef = useRef()
+  // const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
   // useEffect(() => {
@@ -41,21 +41,21 @@ const Logo = () => {
     <div className="logo-container" ref={bgRef}>
       <img ref={solidLogoRef} className="solid-logo" src={Photo} alt="P" />
 
-      <svg
-        width="800"
-        height="800"
+      {/* <svg
+        // width="800"
+        // height="800"
         version="1.0"
         viewBox="0 0 559 897"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g className="svg-container" transform="translate(0 457) " fill="none">
-          {/* for 'rectangle': */}
+          for 'rectangle':
           <path
             ref={outlineLogoRef}
             d="M-92 -133 L-92 433 L349 433 L349 -133 Z"
           />
         </g>
-      </svg>
+      </svg> */}
     </div>
   )
 }
