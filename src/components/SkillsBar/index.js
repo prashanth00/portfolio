@@ -76,14 +76,14 @@ const SkillsBar = () => {
           </span>
         </div>
       </div>
-      <div className="skill-box">
+      {/* <div className="skill-box">
         <span className="skill-title">C++</span>
         <div className="skill-bar">
           <span className="skill-per cpp">
             <span className="tooltip">55%</span>
           </span>
         </div>
-      </div>
+      </div> */}
       <div className="skill-box">
         <span className="skill-title">Dart</span>
         <div className="skill-bar">
@@ -100,14 +100,14 @@ const SkillsBar = () => {
           </span>
         </div>
       </div>
-      <div className="skill-box">
+      {/* <div className="skill-box">
         <span className="skill-title">SAP ABAP</span>
         <div className="skill-bar">
           <span className="skill-per sap">
             <span className="tooltip">50%</span>
           </span>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

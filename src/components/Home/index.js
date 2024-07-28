@@ -65,7 +65,7 @@ const Home = () => {
               idx={23}
             />
           </h1>
-          <h2>RHCSA / CCNA / Flutter / React </h2>
+          <h2>RHCSA / CCNA / React </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
