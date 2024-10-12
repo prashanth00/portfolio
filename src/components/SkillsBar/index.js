@@ -4,17 +4,25 @@ const SkillsBar = () => {
   return (
     <div className="progress-container">
       <div className="skill-box">
-        <span className="skill-title">Python</span>
+        <span className="skill-title">Java</span>
         <div className="skill-bar">
-          <span className="skill-per python">
+          <span className="skill-per java">
             <span className="tooltip">75%</span>
           </span>
         </div>
       </div>
       <div className="skill-box">
-        <span className="skill-title">Java</span>
+        <span className="skill-title">Selenium</span>
         <div className="skill-bar">
-          <span className="skill-per java">
+          <span className="skill-per selenium">
+            <span className="tooltip">70%</span>
+          </span>
+        </div>
+      </div>
+      <div className="skill-box">
+        <span className="skill-title">Python</span>
+        <div className="skill-bar">
+          <span className="skill-per python">
             <span className="tooltip">70%</span>
           </span>
         </div>
@@ -76,22 +84,6 @@ const SkillsBar = () => {
           </span>
         </div>
       </div>
-      {/* <div className="skill-box">
-        <span className="skill-title">C++</span>
-        <div className="skill-bar">
-          <span className="skill-per cpp">
-            <span className="tooltip">55%</span>
-          </span>
-        </div>
-      </div> */}
-      <div className="skill-box">
-        <span className="skill-title">Dart</span>
-        <div className="skill-bar">
-          <span className="skill-per dart">
-            <span className="tooltip">55%</span>
-          </span>
-        </div>
-      </div>
       <div className="skill-box">
         <span className="skill-title">SQL</span>
         <div className="skill-bar">
@@ -100,14 +92,6 @@ const SkillsBar = () => {
           </span>
         </div>
       </div>
-      {/* <div className="skill-box">
-        <span className="skill-title">SAP ABAP</span>
-        <div className="skill-bar">
-          <span className="skill-per sap">
-            <span className="tooltip">50%</span>
-          </span>
-        </div>
-      </div> */}
     </div>
   )
 }

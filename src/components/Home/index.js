@@ -72,7 +72,7 @@ const Home = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1eLfCJxl9LOFW3HShVlJAF6rVMA-f86aP/view?usp=sharing"
+            href="https://drive.google.com/file/d/18HKCaq5qecdtp8ymVTJAhzzBbhFL5ysl/view?usp=sharing"
             className="flat-button"
           >
             DOWNLOAD MY RESUME

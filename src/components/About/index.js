@@ -73,7 +73,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1eLfCJxl9LOFW3HShVlJAF6rVMA-f86aP/view?usp=sharing"
+            href="https://drive.google.com/file/d/18HKCaq5qecdtp8ymVTJAhzzBbhFL5ysl/view?usp=sharing"
           >
             <p>
               <FontAwesomeIcon
@@ -191,6 +191,14 @@ const About = () => {
                 <li>
                   <span className="list-heading">CCNA</span>- Cisco Certified
                   Network Associate
+                </li>
+                <li>
+                  <span className="list-heading">GCP</span>- Google Cloud
+                  Certified Associate Cloud Engineer
+                </li>
+                <li>
+                  <span className="list-heading">AWS</span>- AWS Certified
+                  Solutions Architect Associate
                 </li>
               </ul>
               <h2>Skills</h2>

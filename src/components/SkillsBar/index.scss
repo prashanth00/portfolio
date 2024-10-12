@@ -55,17 +55,25 @@
     }
   }
   .skill-per.java {
+    width: 75%;
+    animation-delay: 0.5s;
+    // animation-delay:0.1s;
+  }
+  .skill-per.selenium {
     width: 70%;
     animation-delay: 0.5s;
     // animation-delay:0.1s;
   }
-
   .skill-per.c {
     width: 70%;
     animation-delay: 1s;
     // animation-delay:0.2s;
   }
-
+  .skill-per.python {
+    width: 70%;
+    animation-delay: 1s;
+    // animation-delay:0.2s;
+  }
   .skill-per.flask {
     width: 65%;
     animation-delay: 1.5s;
